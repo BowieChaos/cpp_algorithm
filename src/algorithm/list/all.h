@@ -3,3 +3,6 @@
 #include "reverse_link_list.h"
 #include "reverse_part_link_list.h"
 #include "merge_k_link_list.h"
+#include "kth_to_tail_list.h"
+#include "delete_nth_to_tail.h"
+#include "add_two_lists.h"
