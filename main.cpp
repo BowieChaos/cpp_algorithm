@@ -3,8 +3,10 @@
 #include "src/algorithm/binary_tree/all.h"
 #include <iostream>
 int main() {
-	std::vector<int> vec{1,2,3};
+	std::vector<int> vec{1,3,2,5};
 	TreeNode* root1 = create_tree(vec);
+	std::vector<int> vec1{2,1,3,-1,4,-1,7};
+	TreeNode* root2 = create_tree(vec1);
 	print_tree_pre_order(root1);
 	std::cout <<std::endl;
 	print_tree_in_order(root1);
@@ -12,8 +14,8 @@ int main() {
 	print_tree_post_order(root1);
 	std::cout <<std::endl;
 	std::cout<<"================"<<std::endl;
-	Zorder solution;
-	auto result = solution.Print(root1);
+	MergeTree solution;
+	auto result = solution.mergeTrees(root1,root2);
 	//print_vector(result);
 	std::cout<<""<<std::endl;
 	return 0;

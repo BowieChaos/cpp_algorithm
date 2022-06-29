@@ -6,3 +6,4 @@
 #include "post_order.h"
 #include "level_order.h"
 #include "z_order.h"
+#include "merge_tree.h"
