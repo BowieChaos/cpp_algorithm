@@ -41,7 +41,9 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "cstring": "cpp",
+        "queue": "cpp"
     },
     "cmake.cmakePath": "D:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/bin/cmake.exe"
 }

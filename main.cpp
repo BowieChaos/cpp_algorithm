@@ -1,13 +1,20 @@
 #include "src/algorithm/list/all.h"
+#include "src/algorithm/sort/all.h"
+#include "src/algorithm/binary_tree/all.h"
 #include <iostream>
 int main() {
-	std::vector<int> vec{1, 2 ,2};
-	ListNode* head1 = create_list_node(vec);
-	std::vector<int> vec2{6, 3};
-	ListNode* head2 = create_list_node(vec2);
-	std::vector<ListNode*> vecList{head1, head2};
-	Delete2 solution;
-	auto result = solution.deleteDuplicates(head1);
-	print_list_node(result);
+	std::vector<int> vec{1,2,3};
+	TreeNode* root1 = create_tree(vec);
+	print_tree_pre_order(root1);
+	std::cout <<std::endl;
+	print_tree_in_order(root1);
+	std::cout <<std::endl;
+	print_tree_post_order(root1);
+	std::cout <<std::endl;
+	std::cout<<"================"<<std::endl;
+	Zorder solution;
+	auto result = solution.Print(root1);
+	//print_vector(result);
+	std::cout<<""<<std::endl;
 	return 0;
 }
