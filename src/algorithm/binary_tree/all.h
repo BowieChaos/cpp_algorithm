@@ -7,3 +7,5 @@
 #include "level_order.h"
 #include "z_order.h"
 #include "merge_tree.h"
+#include "complete_tree.h"
+#include "serialize_tree.h"

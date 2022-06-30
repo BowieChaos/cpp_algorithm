@@ -43,7 +43,9 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "cstring": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "unordered_set": "cpp"
     },
-    "cmake.cmakePath": "D:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/bin/cmake.exe"
+    "cmake.cmakePath": "D:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/bin/cmake.exe",
+    "C_Cpp.errorSquiggles": "Enabled"
 }
