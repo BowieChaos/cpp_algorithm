@@ -1,4 +1,4 @@
-#pragma once;
+#pragma once
 #include <algorithm>
 #include <unordered_map>
 #include <vector>
