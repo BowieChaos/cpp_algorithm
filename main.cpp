@@ -9,8 +9,8 @@
 void test() {
 	//vector<vector<int>> vec{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 	vector<int> vec{1,100,1,1,1,90,1,1,80,1};
-	MinCost solution;
-	auto res = solution.minCostClimbingStairs(vec);
+	EditDistance solution;
+	auto res = solution.editDistance("aaa", "a");
 	//print_vector(res);
 	std::cout << res << std::endl;
 }
