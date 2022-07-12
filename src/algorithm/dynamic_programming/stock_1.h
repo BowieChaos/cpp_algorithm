@@ -15,6 +15,36 @@ public:
 	 * @param prices int整型vector
 	 * @return int整型
 	 */
+
+	int maxProfit_A(vector<int>& prices) {
+		if (prices.empty()) {
+			return 0;
+		}
+		int ret = 0;
+		int min_price = INT_MAX;
+		for (int i = 0; i < prices.size(); i++) {
+			ret = max(ret, prices[i] - min_price);
+			min_price = min(min_price, prices[i]);
+		}
+		return ret;
+	}
+
+	int maxProfit_D(vector<int>& prices) {
+		int n = prices.size();
+		vector<vector<int> > dp(
+		    n,
+		    vector<int>(
+		        2,
+		        0)); // dp[i][0]表示某⼀天不持股到该天为⽌的最⼤收益，dp[i][1]
+		             // 表示某天持股，到该天为⽌的最⼤收益
+		             // dp[0][0] =0; //第⼀天不持股，总收益为0
+		dp[0][1] = -prices[0]; //第⼀天持股，总收益为减去该天的股价
+		for (int i = 1; i < n; i++) { //遍历后续每天，状态转移
+			dp[i][0] = max(dp[i - 1][0], dp[i - 1][1] + prices[i]);
+			dp[i][1] = max(dp[i - 1][1], -prices[i]);
+		}
+		return dp[n - 1][0]; //最后⼀天不持股，到该天为⽌的最⼤收益
+	}
 	int maxProfit(vector<int>& prices) {
 		// write code here
 		if (prices.size() <= 1) {
