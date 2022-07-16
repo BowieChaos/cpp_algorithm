@@ -4,3 +4,5 @@
 #include "max_len.h"
 #include "max_water_2.h"
 #include "host.h"
+#include "spiral_order.h"
+#include "LFU.h"
