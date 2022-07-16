@@ -10,11 +10,11 @@
 
 void test() {
 	// vector<vector<int>> vec{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-	vector<int> vec{2,2,3,4,3};
-	MaxLength solution;
+	vector<vector<int>> vec{{1, 3}, {2, 4}};
+	Host solution;
 	int s[6] = {4, 6, 6, 0, 0, 0};
 	int r[3] = {1, 2, 3};
-	auto res = solution.maxLength(vec);
+	auto res = solution.minmumNumberOfHost(2, vec);
 	// print_vector(res);
 	std::cout << res << std::endl;
 }
