@@ -48,7 +48,8 @@
         "stack": "cpp",
         "iterator": "cpp",
         "set": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "bitset": "cpp"
     },
     "cmake.cmakePath": "D:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/bin/cmake.exe",
     "C_Cpp.errorSquiggles": "Enabled"
