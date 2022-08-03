@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <unordered_set>
 #include <vector>
+#include <queue>
 using namespace std;
 
 // https://www.nowcoder.com/practice/4edf6e6d01554870a12f218c94e8a299?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj

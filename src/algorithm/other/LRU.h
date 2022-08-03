@@ -3,6 +3,7 @@
 #include <unordered_map>
 using namespace std;
 // https://www.nowcoder.com/practice/5dfded165916435d9defb053c63f1e84?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
+
 class Solution {
 public:
 	unordered_map<int, int> mp;
