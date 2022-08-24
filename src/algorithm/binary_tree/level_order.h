@@ -1,11 +1,13 @@
 #pragma once
 
 #include "../../model/b_tree.h"
+#include <queue>
 #include <stack>
 #include <vector>
-#include <queue>
 using namespace std;
 
+// NC80 把二叉树打印成多行
+// https://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?tpId=117&tqId=37832&rp=1&ru=%2Fexam%2Foj&qru=%2Fexam%2Foj&sourceUrl=%2Fexam%2Foj%3FjudgeStatus%3D3%26page%3D1%26pageSize%3D50%26search%3D%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D117&difficulty=undefined&judgeStatus=3&tags=&title=
 class LevelOrder {
 public:
 	/**
@@ -38,7 +40,7 @@ public:
 				}
 			}
 			ret_vec.emplace_back(tmp_vec);
-			swap(que_left,que_right);
+			swap(que_left, que_right);
 		}
 		return ret_vec;
 	}

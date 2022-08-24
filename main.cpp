@@ -12,13 +12,14 @@ void thread_set_promise(std::promise<int>& promiseObj)
 }
 int main()
 {
+
 	promise<int> promiseObj;
 	future<int> futureObj=promiseObj.get_future();
 	thread t(&thread_set_promise, std::ref(promiseObj));
 	cout << futureObj.get() << endl;
 	t.join();
 	cout << "Finished!!!\n" << endl;
-
+	
 	system("pause");
 	return 0;
 }
