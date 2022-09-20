@@ -46,22 +46,22 @@ public:
 			stk_2.pop();
 		}
 		while (!stk_1.empty()) {
-            int tp = stk_1.top();
-            sum = (tp+carry)%10;
-            carry = (tp+carry)/10;
-            stk_ret.emplace(sum);
+			int tp = stk_1.top();
+			sum = (tp + carry) % 10;
+			carry = (tp + carry) / 10;
+			stk_ret.emplace(sum);
 			stk_1.pop();
 		}
 		while (!stk_2.empty()) {
-            int tp = stk_2.top();
-            sum = (tp+carry)%10;
-            carry = (tp+carry)/10;
-            stk_ret.emplace(sum);
+			int tp = stk_2.top();
+			sum = (tp + carry) % 10;
+			carry = (tp + carry) / 10;
+			stk_ret.emplace(sum);
 			stk_2.pop();
 		}
-        if (carry != 0) {
-            stk_ret.emplace(carry);
-        }
+		if (carry != 0) {
+			stk_ret.emplace(carry);
+		}
 
 		ListNode* pre = new ListNode(-1);
 		ListNode* cur = pre;
@@ -70,7 +70,7 @@ public:
 			ListNode* tmp_node = new ListNode(tp);
 			cur->next = tmp_node;
 			cur = cur->next;
-            stk_ret.pop();
+			stk_ret.pop();
 		}
 		return pre->next;
 	}

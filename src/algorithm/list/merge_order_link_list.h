@@ -2,7 +2,8 @@
 
 #include "../../model/list_node.h"
 
-//https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
+// NC33 合并两个排序的链表
+// https://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 class MergeOrderList {
 public:
 	ListNode* Merge(ListNode* pHead1, ListNode* pHead2) {

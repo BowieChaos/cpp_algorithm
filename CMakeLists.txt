@@ -3,4 +3,4 @@ project(cpp_algorithm)
 
 set(CMAKE_CXX_STANDARD 17)
 include_directories(src)
-add_executable(nowcode main.cpp)
+add_executable(nowcode main.cc)

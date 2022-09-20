@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
 			i++;
 			if (3 == i) {          // 3秒后
 				kill(pid, SIGINT); // 给子进程 pid ，发送中断信号 SIGINT
-				// kill(pid, 2);        // 等级于kill(pid, SIGINT);
+				                   // kill(pid, 2);        // 等级于kill(pid, SIGINT);
 			}
 		}
 	}

@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC119 最小的K个数
 // https://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?tpId=295&tqId=23458&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class LeaseK {

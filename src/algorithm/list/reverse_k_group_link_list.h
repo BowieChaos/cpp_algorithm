@@ -1,6 +1,8 @@
 #pragma once
 
 #include "../../model/list_node.h"
+
+// NC50 链表中的节点每k个一组翻转
 // https://www.nowcoder.com/practice/b49c3dc907814e9bbfa8437c251b028e?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 class ReverseKGroup {
 public:
