@@ -8,6 +8,7 @@
 #include <vector>
 using namespace std;
 
+// NC1 大数加法
 // https://www.nowcoder.com/practice/11ae12e8c6fe48f883cad618c2e81475?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class BigNumber {

@@ -4,6 +4,7 @@
 #include <string>
 using namespace std;
 
+// NC52 有效括号序列
 // https://www.nowcoder.com/practice/37548e94a270412c8b9fb85643c8ccc2?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class Bracket {

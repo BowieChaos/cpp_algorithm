@@ -7,6 +7,9 @@
 #include <vector>
 using namespace std;
 
+// NC14 按之字形顺序打印二叉树
+// https://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?tpId=117&tags=&title=&difficulty=0&judgeStatus=0&rp=1&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D117
+
 class Zorder {
 public:
 	vector<vector<int>> Print(TreeNode* pRoot) {

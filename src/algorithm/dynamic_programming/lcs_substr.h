@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+// NC127 最长公共子串
 // https://www.nowcoder.com/practice/f33f5adc55f444baa0e0ca87ad8a6aac?tpId=295&tqId=991075&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class LCSSubstr {

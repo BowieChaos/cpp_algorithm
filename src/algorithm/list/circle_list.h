@@ -2,6 +2,7 @@
 
 #include "../../model/list_node.h"
 
+// NC3 链表中环的入口结点
 // https://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class CircleList {
@@ -11,9 +12,9 @@ public:
 			return pHead;
 		}
 
-        if (pHead->next == nullptr) {
-            return nullptr;
-        }
+		if (pHead->next == nullptr) {
+			return nullptr;
+		}
 
 		ListNode* slow = pHead;
 		ListNode* fast = pHead;

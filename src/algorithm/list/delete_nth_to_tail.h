@@ -2,6 +2,7 @@
 
 #include "../../model/list_node.h"
 
+// NC53 删除链表的倒数第n个节点
 // https://www.nowcoder.com/practice/f95dcdafbde44b22a6d741baf71653f6?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class DeleteNth {

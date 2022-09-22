@@ -2,6 +2,8 @@
 
 #include "../../model/list_node.h"
 #include <stack>
+
+// NC40 链表相加(二)
 // https://www.nowcoder.com/practice/c56f6c70fb3f4849bc56e33ff2a50b6b?tpId=295&tqId=1008772&ru=%2Fpractice%2F650474f313294468a4ded3ce0f7898b9&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class AddTwoLists {

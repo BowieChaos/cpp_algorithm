@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+// BM39 序列化二叉树
 // https://www.nowcoder.com/practice/cf7e25aa97c04cc1a68c8f040e71fb84?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class Serial {
