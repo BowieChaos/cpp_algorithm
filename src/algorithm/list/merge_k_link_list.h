@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+// NC51 合并k个已排序的链表
 // https://www.nowcoder.com/practice/65cfde9e5b9b4cf2b6bafa5f3ef33fa6?tpId=295&tqId=654&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 class ListCompare {
 public:

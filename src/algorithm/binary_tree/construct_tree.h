@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+// NC12 重建二叉树
 // https://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?tpId=295&tqId=23282&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class Construct {

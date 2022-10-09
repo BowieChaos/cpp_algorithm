@@ -2,6 +2,8 @@
 #include <limits.h>
 #include <stack>
 using namespace std;
+
+// NC90 包含min函数的栈
 // https://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class MinStack {

@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 using namespace std;
+
+// NC141 判断是否为回文字符串
 // https://www.nowcoder.com/practice/e297fdd8e9f543059b0b5f05f3a7f3b2?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class Solution {

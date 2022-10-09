@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+// NC17 最长回文子串
 // https://www.nowcoder.com/practice/b4525d1d84934cf280439aeecc36f4af?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class LongestPalindrome {

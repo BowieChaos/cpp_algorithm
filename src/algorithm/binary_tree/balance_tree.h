@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+// NC62 判断是不是平衡二叉树
 // https://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?tpId=295&tqId=2299105&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class Balance {

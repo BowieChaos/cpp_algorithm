@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC121 字符串的排列
 // https://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class StringPermute {

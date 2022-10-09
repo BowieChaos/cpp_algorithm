@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC109 岛屿数量
 // https://www.nowcoder.com/practice/0c9664d1554e466aa107d899418e814e?tpId=295&tqId=2188893&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class Island {
@@ -14,11 +15,6 @@ public:
 	 * @return int整型
 	 */
 	vector<vector<int>> direction{{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
-
-
-
-
-
 	int solve_1(vector<vector<char>>& grid) {
 		// write code here
 		int count = 0;

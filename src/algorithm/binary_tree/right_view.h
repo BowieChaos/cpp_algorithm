@@ -5,6 +5,8 @@
 #include <vector>
 using namespace std;
 
+
+// NC136 输出二叉树的右视图
 // https://www.nowcoder.com/practice/c9480213597e45f4807880c763ddd5f0?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class Right {

@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC128 接雨水问题
 // https://www.nowcoder.com/practice/31c1aed01b394f0b8b7734de0324e00f?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class MaxWater2 {

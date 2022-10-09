@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC73 数组中出现次数超过一半的数字
 // https://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class MoreThanHalf {

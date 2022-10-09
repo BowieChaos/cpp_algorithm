@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+// BM71 最长上升子序列(一)
 // https://www.nowcoder.com/practice/5164f38b67f846fb8699e9352695cd2f?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class LISSolution {
@@ -37,7 +38,7 @@ public:
 	}
 };
 
-
+// NC91 最长上升子序列(三)
 // https://www.nowcoder.com/practice/9cf027bf54714ad889d4f30ff0ae5481?tpId=117&tqId=37796&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D117&difficulty=undefined&judgeStatus=undefined&tags=&title=
 class Solution {
 public:
