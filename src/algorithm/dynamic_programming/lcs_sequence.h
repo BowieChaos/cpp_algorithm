@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+// NC92 最长公共子序列(二)
 // https://www.nowcoder.com/practice/6d29638c85bb4ffd80c020fe244baf11?tpId=295&tqId=991075&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 class LCSSeq {
 public:
@@ -43,15 +44,15 @@ public:
 			} else if (dp[i][j] == dp[i][j - 1]) {
 				j--;
 			} else if (dp[i][j] == dp[i - 1][j - 1] + 1) {
-                ret.push_back(s1[i-1]);
-                i--;
-                j--;
-            }
+				ret.push_back(s1[i - 1]);
+				i--;
+				j--;
+			}
 		}
-        if (ret.empty()) {
-            return "-1";
-        }
-        reverse(ret.begin(), ret.end());
-        return ret;
+		if (ret.empty()) {
+			return "-1";
+		}
+		reverse(ret.begin(), ret.end());
+		return ret;
 	}
 };

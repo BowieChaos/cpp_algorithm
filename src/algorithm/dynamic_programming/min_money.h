@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+// NC126 兑换零钱(一)
 // https://www.nowcoder.com/practice/3911a20b3f8743058214ceaa099eeb45?tpId=295&tqId=988994&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class MinMoney {

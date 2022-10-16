@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+// NC34 不同路径的数目(一)
 // https://www.nowcoder.com/practice/166eaff8439d4cd898e3ba933fbc6358?tpId=295&tqId=991075&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class UniquePath {

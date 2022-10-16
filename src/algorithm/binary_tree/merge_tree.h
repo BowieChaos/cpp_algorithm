@@ -4,6 +4,8 @@
 #include <stack>
 #include <vector>
 using namespace std;
+
+// NC117 合并二叉树
 // https://www.nowcoder.com/practice/7298353c24cc42e3bd5f0e0bd3d1d759?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295
 
 class MergeTree {

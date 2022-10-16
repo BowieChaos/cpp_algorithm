@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC30 缺失的第一个正整数
 // https://www.nowcoder.com/practice/50ec6a5b0e4e45348544348278cdcee5?tpId=295&tqId=2188893&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class MinPositive {

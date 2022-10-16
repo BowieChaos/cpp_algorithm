@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC42 有重复项数字的全排列
 // https://www.nowcoder.com/practice/a43a2b986ef34843ac4fdd9159b69863?tpId=295&tqId=2188893&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class PermuteUnique {

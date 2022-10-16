@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+// NC82 滑动窗口的最大值
 // https://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?tpId=295&tqId=23458&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class MaxWindows {

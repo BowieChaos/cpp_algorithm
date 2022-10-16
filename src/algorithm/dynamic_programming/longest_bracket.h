@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+// NC49 最长的括号子串
 // https://www.nowcoder.com/practice/45fd68024a4c4e97a8d6c45fc61dc6ad?tpId=295&tqId=2294660&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class Solution {
@@ -22,7 +23,7 @@ public:
 			return 0;
 		}
 		vector<int> dp(s.size(), 0);
-        int ret = 0;
+		int ret = 0;
 		for (size_t i = 1; i < s.size(); i++) {
 			if (s[i] == ')') {
 				int pre = i - dp[i - 1] - 1;
@@ -31,11 +32,11 @@ public:
 					if (pre - 1 >= 0 && s[pre - 1] == ')') {
 						dp[i] += dp[pre - 1];
 					}
-                    ret = max(ret, dp[i]);
+					ret = max(ret, dp[i]);
 				}
 			}
 		}
-        return ret;
+		return ret;
 	}
 
 	int longestValidParentheses_stk(string s) {
@@ -54,6 +55,13 @@ public:
 				if (stk.size() > 1) {
 					stk.pop();
 					ret = max(ret, i - stk.top());
+				} else {
+					if (stk.empty()) {
+						stk.emplace(i);
+					} else {
+						stk.pop();
+						stk.emplace(i);
+					}
 				}
 			}
 		}

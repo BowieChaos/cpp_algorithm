@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+// NC55 最长公共前缀
 // https://www.nowcoder.com/practice/28eb3175488f4434a4a6207f6f484f47?tpId=295&tqId=44664&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class CommonPrefix {

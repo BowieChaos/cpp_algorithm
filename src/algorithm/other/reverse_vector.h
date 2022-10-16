@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC110 旋转数组
 // https://www.nowcoder.com/practice/e19927a8fd5d477794dac67096862042?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class ReverseVec {

@@ -7,6 +7,7 @@
 #include <vector>
 using namespace std;
 
+// NC116 把数字翻译成字符串
 // https://www.nowcoder.com/practice/046a55e6cd274cffb88fc32dba695668?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class NumToString {

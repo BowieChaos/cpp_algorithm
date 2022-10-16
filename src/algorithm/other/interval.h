@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC37 合并区间
 // https://www.nowcoder.com/practice/69f4e5b7ad284a478777cb2a17fb5e6a?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 struct Interval {

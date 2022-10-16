@@ -2,6 +2,7 @@
 
 #include "../../model/list_node.h"
 
+// NC96 判断一个链表是否为回文结构
 // https://www.nowcoder.com/practice/3fed228444e740c8be66232ce8b87c2f?tpId=295&tqId=1008769&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class IsPail {

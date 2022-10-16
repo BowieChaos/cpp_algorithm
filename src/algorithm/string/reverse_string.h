@@ -2,8 +2,10 @@
 
 #include <deque>
 #include <string>
+#include <algorithm>
 using namespace std;
 
+// NC89 字符串变形
 // https://www.nowcoder.com/practice/c3120c1c1bc44ad986259c0cf0f0b80e?tpId=295&tqId=44664&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class RevString {

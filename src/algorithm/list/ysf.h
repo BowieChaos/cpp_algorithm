@@ -6,7 +6,7 @@
 using namespace std;
 
 // https://www.nowcoder.com/practice/41c399fdb6004b31a6cbb047c641ed8a?tpId=117&tqId=37812&rp=1&ru=/exam/oj&qru=/exam/oj&sourceUrl=%2Fexam%2Foj%3FjudgeStatus%3D3%26page%3D1%26pageSize%3D50%26search%3D%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D117&difficulty=undefined&judgeStatus=3&tags=&title=
-// 环形链表的约瑟夫问题
+// NC132 环形链表的约瑟夫问题
 
 class YSF {
 public:

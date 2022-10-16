@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC43 没有重复项数字的全排列
 // https://www.nowcoder.com/practice/4bcf3081067a4d028f95acee3ddcd2b1?tpId=295&tqId=2188893&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class cmp {
@@ -31,8 +32,7 @@ public:
 		return ret_vec;
 	}
 
-	void permute_core(vector<int>& num, int index,
-	                  vector<vector<int> >& ret_vec) {
+	void permute_core(vector<int>& num, int index, vector<vector<int> >& ret_vec) {
 		if (index == num.size()) {
 			ret_vec.emplace_back(num);
 			return;

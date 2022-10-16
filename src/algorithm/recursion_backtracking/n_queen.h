@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC39 N皇后问题
 // https://www.nowcoder.com/practice/c76408782512486d91eea181107293b6?tpId=295&tqId=1008753&ru=/exam/oj&qru=/ta/format-top101/question-ranking&sourceUrl=%2Fexam%2Foj
 
 class NumNQueen {
@@ -30,8 +31,8 @@ public:
 
 	void traverse(int row, int n) {
 		if (row == n) {
-            this->count++;
-            this->chessBoard[row-1] = -1;
+			this->count++;
+			this->chessBoard[row - 1] = -1;
 			return;
 		}
 		for (size_t i = 0; i < n; i++) {
@@ -53,9 +54,9 @@ public:
 				return false;
 			}
 			if (chessBoard[i] - i == col - row) {
-                return false;
-            }
+				return false;
+			}
 		}
-        return true;
+		return true;
 	}
 };

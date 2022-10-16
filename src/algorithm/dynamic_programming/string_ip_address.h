@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+// NC20 数字字符串转化成IP地址
 // https://www.nowcoder.com/practice/ce73540d47374dbe85b3125f57727e1e?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class StringToIP {

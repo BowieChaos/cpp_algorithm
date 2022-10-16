@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC26 括号生成
 // https://www.nowcoder.com/practice/c9addb265cdf4cdd92c092c655d164ca?tpId=295&tqId=1008753&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class Parethesis {

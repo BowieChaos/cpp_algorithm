@@ -6,6 +6,7 @@
 #include <vector>
 using namespace std;
 
+// NC122 正则表达式匹配
 // https://www.nowcoder.com/practice/28970c15befb4ff3a264189087b99ad4?tpId=295&tqId=2294660&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class RegexMatch {
@@ -29,8 +30,7 @@ public:
 					continue;
 				}
 				if (pattern[col - 1] != '*') {
-					if (row > 0 && (str[row - 1] == pattern[col - 1] ||
-					                pattern[col - 1] == '.')) {
+					if (row > 0 && (str[row - 1] == pattern[col - 1] || pattern[col - 1] == '.')) {
 						dp[row][col] = dp[row - 1][col - 1];
 					}
 				} else {
@@ -38,9 +38,7 @@ public:
 						dp[row][col] = (dp[row][col - 2] || dp[row][col]);
 					}
 
-					if (row >= 1 && col >= 2 &&
-					    (str[row - 1] == pattern[col - 2] ||
-					     pattern[col - 2] == '.')) {
+					if (row >= 1 && col >= 2 && (str[row - 1] == pattern[col - 2] || pattern[col - 2] == '.')) {
 						dp[row][col] = dp[row - 1][col] || dp[row][col];
 					}
 				}
@@ -53,8 +51,7 @@ public:
 		// write code here
 		return matchCore(str, 0, pattern, 0);
 	}
-	bool matchCore(const string& str, int index1, const string& pattern,
-	               int pIndex) {
+	bool matchCore(const string& str, int index1, const string& pattern, int pIndex) {
 		if (index1 == str.size()) {
 			if (pIndex == pattern.size() || judgeP(pattern.substr(pIndex)))
 				return true;
@@ -71,8 +68,7 @@ public:
 					return matchCore(str, index1 + 1, pattern, pIndex + 1);
 			} else {
 				if (pattern[pIndex] == '.') {
-					return matchCore(str, index1 + 1, pattern, pIndex) ||
-					       matchCore(str, index1, pattern, pIndex + 2);
+					return matchCore(str, index1 + 1, pattern, pIndex) || matchCore(str, index1, pattern, pIndex + 2);
 				} else {
 					if (pattern[pIndex] != str[index1])
 						return matchCore(str, index1, pattern, pIndex + 2);

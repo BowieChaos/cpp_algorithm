@@ -40,7 +40,7 @@ public:
 				}
 			}
 		}
-		
+
 		return ret * ret;
 	}
 };

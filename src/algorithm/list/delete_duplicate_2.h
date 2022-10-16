@@ -2,6 +2,7 @@
 
 #include "../../model/list_node.h"
 
+// BM16 删除有序链表中重复的元素-II
 // https://www.nowcoder.com/practice/71cef9f8b5564579bf7ed93fbe0b2024?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj
 
 class Delete2 {

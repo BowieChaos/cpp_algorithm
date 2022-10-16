@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+// NC138 矩阵最长递增路径
 // https://www.nowcoder.com/practice/7a71a88cdf294ce6bdf54c899be967a2?tpId=295&tqId=1008753&ru=%2Fexam%2Foj&qru=%2Fta%2Fformat-top101%2Fquestion-ranking&sourceUrl=%2Fexam%2Foj
 
 class IncreasePath {
@@ -34,10 +35,8 @@ public:
 		return ret;
 	}
 
-	void dfs(vector<vector<int>>& matrix, int row, int col, int count, int pre,
-	         int& ret) {
-		if (row < 0 || row >= matrix.size() || col < 0 ||
-		    col >= matrix[0].size() || matrix[row][col] <= pre) {
+	void dfs(vector<vector<int>>& matrix, int row, int col, int count, int pre, int& ret) {
+		if (row < 0 || row >= matrix.size() || col < 0 || col >= matrix[0].size() || matrix[row][col] <= pre) {
 			return;
 		}
 		count++;

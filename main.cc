@@ -14,42 +14,8 @@ struct File {
 	int depth;
 };
 
-File* constructFileTree(vector<File*>& files) {
-	if (files.empty()) {
-		return nullptr;
-	}
-	File* root = files[0];
-	stack<File*> stk;
-	stk.emplace(root);
-	int cur_index = 1;
-	while (cur_index < files.size()) {
-		while (cur_index < files.size() && files[cur_index]->isDirectory) {
-			stk.top()->children.emplace_back(files[cur_index]);
-			stk.emplace(files[cur_index]);
-			cur_index++;
-		}
-		auto cur_dir = stk.top();
-		while (cur_index < files.size() && !files[cur_index]->isDirectory) {
-			cur_dir->children.emplace_back(files[cur_index]);
-			cur_index++;
-		}
-		if (cur_index >= files.size()) {
-			break;
-		}
-
-		while (cur_index < files.size() && files[cur_index]->isDirectory) {
-			stk.top()->children.emplace_back(files[cur_index]);
-			stk.emplace(files[cur_index]);
-			cur_index++;
-		}
-
-		stk.pop();
-		stk.top()->children.emplace_back(files[cur_index]);
-		stk.emplace(files[cur_index]);
-		cur_index++;
-		
-	}
-	return root;
+int main() {
+	std::string s;
+	s.substr();
+	return 0;
 }
-
-int main() { return 0; }
