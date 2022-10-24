@@ -6,6 +6,7 @@
 #include <queue>
 using namespace std;
 
+// BM34 判断是不是二叉搜索树
 // https://www.nowcoder.com/practice/a69242b39baf45dea217815c7dedb52b?tpId=295&tags=&title=&difficulty=0&judgeStatus=0&rp=0&sourceUrl=%2Fexam%2Foj%3Fpage%3D1%26tab%3D%25E7%25AE%2597%25E6%25B3%2595%25E7%25AF%2587%26topicId%3D295
 
 int pre = INT_MIN;
