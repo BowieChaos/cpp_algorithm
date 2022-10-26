@@ -14,7 +14,7 @@ public:
 	Shared_Ptr(const Shared_Ptr<T>& sp)
 	    : _pPtr(sp._pPtr)
 	    , _pRefCount(sp._pRefCount)
-	    , _pMut-ex(sp._pMutex) {
+	    , _pMutex(sp._pMutex) {
 		AddRefCount();
 	}
 	Shared_Ptr<T>& operator=(const Shared_Ptr<T>& sp) {

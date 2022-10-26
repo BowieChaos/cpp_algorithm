@@ -1,9 +1,9 @@
 #pragma once
 
 #include "../../model/b_tree.h"
+#include <queue>
 #include <stack>
 #include <vector>
-#include <queue>
 using namespace std;
 
 // BM34 判断是不是二叉搜索树
@@ -13,27 +13,27 @@ int pre = INT_MIN;
 
 class Solution {
 public:
-    /**
-     * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
-     *
-     * 
-     * @param root TreeNode类 
-     * @return bool布尔型
-     */
-    bool isValidBST(TreeNode* root) {
-        // write code here
-        if (root == nullptr) {
-            return true;
-        }
+	/**
+	 * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
+	 *
+	 *
+	 * @param root TreeNode类
+	 * @return bool布尔型
+	 */
+	bool isValidBST(TreeNode* root) {
+		// write code here
+		if (root == nullptr) {
+			return true;
+		}
 
-        if (!isValidBST(root->left)) {
-            return false;
-        }
+		if (!isValidBST(root->left)) {
+			return false;
+		}
 
-        if (root->val <= pre) {
-            return false;
-        }
-        pre = root->val;
-        return isValidBST(root->right);
-    }
+		if (root->val <= pre) {
+			return false;
+		}
+		pre = root->val;
+		return isValidBST(root->right);
+	}
 };

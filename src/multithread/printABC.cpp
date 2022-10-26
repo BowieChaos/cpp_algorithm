@@ -14,8 +14,6 @@ void PrintString_1() {
 		          << "A" << std::endl;
 		ready = 1;
 		cnt++;
-		lk.unlock();
-
 		cv.notify_all();
 	}
 }
@@ -30,8 +28,6 @@ void PrintString_2() {
 		          << "B" << std::endl;
 		ready = 2;
 		cnt++;
-		lk.unlock();
-
 		cv.notify_all();
 	}
 }
@@ -46,7 +42,6 @@ void PrintString_3() {
 		          << "C" << std::endl;
 		ready = 0;
 		cnt++;
-		lk.unlock();
 		cv.notify_all();
 	}
 }
