@@ -74,6 +74,6 @@
         "typeindex": "cpp",
         "valarray": "cpp"
     },
-    "cmake.cmakePath": "D:/Program Files/JetBrains/CLion 2022.1.2/bin/cmake/win/bin/cmake.exe",
+    "cmake.cmakePath": "D:/Program Files/JetBrains/CLion 2022.2.4/bin/cmake/win/bin/cmake.exe",
     "C_Cpp.errorSquiggles": "Enabled"
 }

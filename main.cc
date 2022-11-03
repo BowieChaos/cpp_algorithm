@@ -4,6 +4,8 @@
 #include <thread>
 using namespace std;
 
+std::mutex mtx;
+std::condition_variable cv;
 
 int main() {
 	
